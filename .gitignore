@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# 数据文件
+data/
+*.db
+*.sqlite
+*.wav
+*.mp3
+
+# 模型文件
+*.pt
+*.bin
+models/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# 临时文件
+temp_*
+*.log
