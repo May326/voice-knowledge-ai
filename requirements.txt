@@ -1,0 +1,24 @@
+cat > requirements.txt << 'EOF'
+# Web界面
+gradio
+
+# 知识库
+chromadb
+sentence-transformers
+
+# 语音识别
+openai-whisper
+
+# 语音合成
+edge-tts
+
+# 文档处理
+PyPDF2
+python-docx
+
+# LLM
+google-generativeai
+
+# 其他依赖
+numpy
+EOF
